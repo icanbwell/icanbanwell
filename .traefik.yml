@@ -1,0 +1,11 @@
+displayName: icanbanwell Plugin
+type: middleware
+iconPath: .assets/ban.png
+
+import: github.com/icanbwell/code.icanbanwell
+
+summary: 'Handle IP-based bans'
+
+testData:
+  Headers:
+    X-Forwarded-For: 1.2.3.4,2.3.4.5
